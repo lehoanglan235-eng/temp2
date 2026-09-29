@@ -385,7 +385,7 @@ const CONFIG = {
     { id: 'human_or_tts', type: 'choice',
       text: '사람 목소리인가요, 합성음인가요?',
       options: ['사람', '합성음'] },
-    { id: 'age_guess', type: 'slider', min: 80, max: 10, step: 1, unit: '세',
+    { id: 'age_guess', type: 'slider', max: 80, min: 10, step: 1, unit: '세',
       text: '화자의 나이는 몇 살쯤으로 들리나요?',
       anchorLow: '10세', anchorHigh: '80세' },
     { id: 'impression', type: 'multi', minSelect: 1,
